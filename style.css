@@ -6,19 +6,26 @@
 .cvres{
     width: 210mm;
     min-height: 297mm;
-
+    color: rgb(0, 0, 0);
     margin: 10% auto;
-    background-color: rgb(75, 218, 218);
+    box-shadow: inset 3px black;
+    background-color: rgb(181, 196, 196);
+    border: dashed rgb(0, 0, 0) 2px;
 }
 .img{
     margin: 8px;
     border-radius: 10px;
+}
+.education h3{
+    font-size: large;
 }
 .header-name{
     margin-left: 20px;
     flex-direction: column;
     display: flex;
     margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 .header-profile{
     margin: 20px;
@@ -35,16 +42,13 @@
   .cvres {
     width: 100%;
   }
-    .header-inner{
-        font-size: xx-small;
-
-    }
+    
     .img{
         
         font-size: 4em;
     }
     .header-name {
-        font-size: xx-small;
+        
         /* min-width:95%; */
         /* height:55%; */
         margin: 0%;
@@ -54,7 +58,7 @@
         margin: 15px;
     }
     .header-profile{
-        font-size: xx-small;
+        
         margin: 0;
         padding: 0;
 
@@ -67,30 +71,27 @@
         display: block;
         flex-direction: column;
     }
+    
     .experience{
-        font-size: xx-small;
+        
         margin: 0%;
         /* min-width: 100em; */
     }
     .education{
-        font-size: xx-small;
+        
         margin: 0%;
         padding: 0%;
     }
     .p1{
         /* width: 0; */
-        display: flexbox;
+        display: flex;
         align-items: center;
         justify-content: center;
-        margin: 3% 0 3% 0;
-        font-size: xx-small;
-        
-        
-        
-
+        margin: 20px;
+        padding: 20px;
     }
     .education-masters{
-        font-size: xx-small;
+        
         margin: 0 ;
         
         width: auto;
@@ -99,9 +100,10 @@
         
     }
     .education-masters p{
-        font-size: small;
-        margin: 5px 0;
-        padding: 5px 0;
+        
+        margin: 5px;
+    padding: 5px;
+
         /* width: 85%; */
     }
     .cvres{
@@ -119,29 +121,24 @@
         
         flex-direction: column;
     }
-    .education-bachelor p{
-        font-size: small;
-        margin: 5px 0;
-        padding: 5px 0;
-        /* width: 85%; */
-    }
+    
     h1{
         font-size: medium;
         margin: 0;
     }
     h3{
-        font-size: medium;
-        margin: 0;
+        font-size: x-large;
+        margin: 5px;
         
     }
     h5{
-        font-size: small;
+        
         margin: 0;
         
     }
     h6{
         margin: 0;
-        font-size: x-small;
+        
     }
     .experience{
         margin: 0;
@@ -150,12 +147,12 @@
     
     .soft{
         margin: 0;
-        font-size: small;
+        
         width: auto;
         flex-direction: column;
     }
     .soft p{
-        font-size: small;
+        
         margin: 5px 0;
         padding: 5px 0;
         /* width: 85%; */
@@ -165,35 +162,36 @@
         /* width: 500px;
         
         top: 10px; */
-        margin: 0;
-        font-size: small;
+        margin: 2%;
+        
         width: auto;
         flex-direction: column;
     }
     .Web p{
-        font-size: small;
-        margin: 5px 0;
-        padding: 5px 0;
+        
+        margin: 20px;
+    padding: 20px;
         /* width: 85%; */
         
     }
     .graph{
         
-        margin: 0;
-        font-size: small;
+        margin: 2%;
+        
         width: auto;
         flex-direction: column;
     }
     .graph p{
-        font-size: small;
-        margin: 5px 0;
-        padding: 5px 0;
+        
+        margin: 20px;
+    padding: 20px;
         /* width: 85%; */
         
     }
     .edu-exp{
         /* margin: 10%; */
         width: auto;
+        margin: 10px;
     }
     
 }
@@ -201,11 +199,29 @@
 body{
     height: auto;
     display: block;
-    
+    /* font-family: 'Bangers', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Righteous', cursive; */
+font-family: 'Bangers', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+
+
+color: rgb(0, 0, 0);
     /* border-radius: 20px;
     border: 3px solid black;
     width: 60%;
     padding: 5%; */
+}
+.contact{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    flex-direction: column;
 }
 .reference{
     margin: 0;
@@ -216,12 +232,26 @@ body{
 }
 .address{
     display: flex;
+    font-size: medium;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 .phone{
     display: flex;
+    font-size: medium;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 .email{
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: medium;
+    margin: 5px;
 }
 .exp-exp{
     display: block;
@@ -251,19 +281,21 @@ body{
     
 }
 .bil{
-    margin: 3%;
+    margin: 5px;
+    padding: 5px;
+    font-size: medium;
 }
 .image{
-    width: 5%;
-    height: 5%;
+    width: 15%;
+    height: 15%;
 }
 .image1{
-    width: 5%;
-    height: 5%;
+    width: 15%;
+    height: 15%;
 }
 .image2{
-    width: 5%;
-    height: 5%;   
+    width: 15%;
+    height: 15%;   
 }
 .education{
     display: block;
@@ -276,26 +308,27 @@ body{
 .education-masters{
     /* width: 500px; */
     
-    margin: 0 auto;
+    margin: 5px;
     
     /* bottom: 20px; */
     
 }
 .education-bachelor{
     /* width: 500px; */
-    margin: 20px;
-    margin: 0 auto;
+    margin: 5px;
     
     /* bottom: 50px; */
 }
 .con-ed{
     display: flex;
     
-    font-size: smaller;
-    flex-wrap: wrap;
+    
+
+
+    
 }
 .par{
-    
+    font-size: medium;
     top: 40px;
 }
 .experience{
@@ -305,31 +338,24 @@ body{
     font-size: 11px;
     
 }
+h6{
+    font-size: medium;
+}
 .p1{
     display: flex;
-    
-    
+    font-size: medium;
+    margin: 5px;
+    padding: 5px;
 }
 .experience>h3{
-    
+    font-size: medium;
     top: 30px;
     
 }
-.soft{
-    /* width: 500px; */
-    
-    top: 15px;
+.p2{
+    font-size: 140%;
 }
-.Web{
-    /* width: 500px; */
-    
-    top: 10px;
-}
-.graph{
-    /* width: 500px; */
-    
-    
-}
+
 .btn1{
     display: flex;
     justify-content: center;
@@ -338,12 +364,12 @@ body{
     height: 30px;
     border: none;
     color: rgb(178, 181, 165);
-    background-color: rebeccapurple;
+    background-color: rgb(120, 120, 120);
     margin: 5px;
     border-radius: 10px;
     transition: ease-out 0.8s ;
     outline: none;
-    font-size: small;
+    
     
 
 }
