@@ -290,11 +290,8 @@ body{
 }
 .con-ed{
     display: flex;
-    justify-content: stretch;
-    align-items: baseline;
     
     font-size: smaller;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 .par{
