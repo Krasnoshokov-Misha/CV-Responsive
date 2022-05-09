@@ -224,7 +224,7 @@ color: rgb(0, 0, 0);
     flex-direction: column;
 }
 .reference{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     display: block;
     justify-content: center;
@@ -279,11 +279,12 @@ color: rgb(0, 0, 0);
     display: block;
     justify-content: center;
     align-items: center;
+    margin: 10px;
     
 }
 .bil{
-    margin: 5px;
-    padding: 5px;
+    margin: 3px;
+    padding: 3px;
     font-size: medium;
 }
 .image{
@@ -380,10 +381,10 @@ a{
 }
 .btn1:hover{
     color: rgba(17, 115, 228, 0.845);
-    background-color: rgb(220, 8, 188);
+    background-color: rgb(255, 255, 255);
 
 }
 .btn1:active{
     bottom: 3px solid rgb(212, 34, 212);
-    background-color: rgb(35, 229, 220)
+    background-color: rgb(148, 216, 212)
 }
